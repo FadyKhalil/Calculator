@@ -1,0 +1,8 @@
+calculator.html
+build/
+.tools/
+*.o
+*.obj
+*.exe
+*.out
+.vs/
