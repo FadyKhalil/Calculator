@@ -1,31 +1,37 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-class Calculator {
+class Calculator
+{
 private:
     double a;
     double b;
 
 public:
-    Calculator(double first, double second) {
+    Calculator(double first, double second)
+    {
         a = first;
         b = second;
     }
 
-    double add() {
+    double add()
+    {
         return a + b;
     }
 
-    double subtract() {
+    double subtract()
+    {
         return a - b;
     }
 
-    double multiply() {
+    double multiply()
+    {
         return a * b;
     }
 
     // The provided main checks that B is not zero before calling this.
-    double divide() {
+    double divide()
+    {
         return a / b;
     }
 
@@ -33,7 +39,14 @@ public:
 
     // Pair B works below.
     // Keep both methods when merging.
-    // PAIR_B: students 03 and 04 replace this comment with their own method.
+    double absolute()
+    {
+        if (a < 0)
+        {
+            a = a * -1;
+        }
+        return a;
+    }
 
     // Pair C works below.
     // Keep both methods when merging.
