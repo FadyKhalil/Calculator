@@ -39,6 +39,9 @@ public:
     // Keep both methods when merging.
     // PAIR_C: students 05 and 06 replace this comment with their own method.
 
+    double halfA(){
+        return  a / 2.0;
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };
 
