@@ -39,6 +39,10 @@ public:
     // Keep both methods when merging.
     // PAIR_C: students 05 and 06 replace this comment with their own method.
 
+    double percentage()
+    {
+        return a * (b / 100);
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };
 
