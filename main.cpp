@@ -56,6 +56,7 @@ int main() {
     // return absolute value.
     // Keep both rows when merging.
     addRow(page, "student03's line calls:Absolute",calculator.absolute());
+    addRow(page, "Negate", calculator.negate());
 
     // Pair C works below.
     // Keep both rows when merging.
