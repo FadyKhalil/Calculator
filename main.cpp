@@ -53,8 +53,9 @@ int main() {
 
     // ROW_A: students 01 and 02 replace this comment with their own addRow call.
 
-    // Pair B works below.
+    // return absolute value.
     // Keep both rows when merging.
+    addRow(page, "student03's line calls:Absolute",calculator.absolute());
     addRow(page, "Negate", calculator.negate());
 
     // Pair C works below.
