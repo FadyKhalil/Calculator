@@ -33,7 +33,12 @@ public:
 
     // Pair B works below.
     // Keep both methods when merging.
-    // PAIR_B: students 03 and 04 replace this comment with their own method.
+    double negate() {
+        if (a == 0) {
+            return 0;
+        }
+        return -a;
+    }
 
     // Pair C works below.
     // Keep both methods when merging.
