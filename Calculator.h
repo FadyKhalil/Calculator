@@ -61,6 +61,9 @@ public:
     {
         return a * (b / 100);
     }
+    double sumOfSquares(){
+        return (a*a + b*b) ;
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };
 
