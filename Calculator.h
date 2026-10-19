@@ -42,7 +42,17 @@ public:
 
     // Pair C works below.
     // Keep both methods when merging.
-    // PAIR_C: students 05 and 06 replace this comment with their own method.
+    double minimum() const
+    {
+        if(a < b)
+        {
+            return a;
+        }
+        else
+        {
+            return b;
+        }
+    }
 
     double percentage()
     {
