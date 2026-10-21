@@ -75,6 +75,8 @@ public:
         return (a > b)? a : b;
     }
 
+    double halfA(){
+        return  a / 2.0;
     double percentage()
     {
         return a * (b / 100);

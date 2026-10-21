@@ -60,6 +60,8 @@ int main() {
 
     // Pair C works below.
     // Keep both rows when merging.
+    // ROW_C: students 05 and 06 replace this comment with their own addRow call.
+    addRow(page,"HalfA", calculator.halfA());
     addRow(page, "Minimum", calculator.minimum());
     addRow(page,"maximum",calculator.maximum());
 
