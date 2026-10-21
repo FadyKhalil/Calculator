@@ -46,6 +46,7 @@ public:
             a = a * -1;
         }
         return a;
+    }
     double negate() {
         if (a == 0) {
             return 0;
@@ -62,6 +63,10 @@ public:
     double percentage()
     {
         return a * (b / 100);
+    }
+    double average()
+    {
+        return (a +b)/2;
     }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };

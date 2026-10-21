@@ -63,6 +63,7 @@ int main() {
     addRow(page,"maximum",calculator.maximum());
 
     addRow(page, "Percentage", calculator.percentage());
+    addRow(page, "Average", calculator.average());
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
 
     page << "</table><p><small>Calculated in C++. To change the inputs, run the program again"
