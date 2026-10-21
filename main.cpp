@@ -60,6 +60,7 @@ int main() {
 
     // Pair C works below.
     // Keep both rows when merging.
+    addRow(page, "Minimum", calculator.minimum());
     addRow(page,"maximum",calculator.maximum());
 
     addRow(page, "Percentage", calculator.percentage());

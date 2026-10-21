@@ -46,6 +46,7 @@ public:
             a = a * -1;
         }
         return a;
+    }
     double negate() {
         if (a == 0) {
             return 0;
@@ -55,6 +56,18 @@ public:
 
     // Pair C works below.
     // Keep both methods when merging.
+    double minimum() const
+    {
+        if(a < b)
+        {
+            return a;
+        }
+        else
+        {
+            return b;
+        }
+    }
+
     double maximum(){
         return (a > b)? a : b;
     }
