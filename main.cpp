@@ -51,8 +51,7 @@ int main() {
         std::cout << "Division: cannot divide by zero\n";
     }
 
-    // ROW_A: students 01 and 02 replace this comment with their own addRow call.
-
+    addRow(page, "Cubic", calculator.cube());
     // Pair B works below.
     // Keep both rows when merging.
     // ROW_B: students 03 and 04 replace this comment with their own addRow call.
