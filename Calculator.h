@@ -37,7 +37,7 @@ public:
 	
 	double square()
 	{
-		return a*a;
+		return a * a;
 	}
 
     // Pair B works below.
