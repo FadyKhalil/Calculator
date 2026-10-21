@@ -64,6 +64,7 @@ int main() {
     addRow(page,"maximum",calculator.maximum());
 
     addRow(page, "Percentage", calculator.percentage());
+    addRow(page, "Sum of Squares", calculator.sumOfSquares());
     addRow(page, "Average", calculator.average());
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
 
