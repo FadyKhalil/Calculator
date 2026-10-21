@@ -60,7 +60,7 @@ int main() {
 
     // Pair C works below.
     // Keep both rows when merging.
-    // ROW_C: students 05 and 06 replace this comment with their own addRow call.
+    addRow(page,"maximum",calculator.maximum());
 
     addRow(page, "Percentage", calculator.percentage());
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
