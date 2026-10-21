@@ -83,6 +83,34 @@ public:
     {
         return (a +b)/2;
     }
+
+    double pow()
+    {
+        double result =1;
+        int x=b;
+        
+        if (b>0)
+        { while (x!=0)
+            {    
+                result = result *a;
+                x--
+            }
+
+        }
+        else if (b==0)
+        result=1;
+        else
+        {  
+            while (x!=0)
+            {    
+                result = result *a;
+                x++;
+            }
+            result = 1/result;
+        }
+        return result ;
+        
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 	
 };
