@@ -34,8 +34,11 @@ public:
     {
         return a / b;
     }
-
-    // PAIR_A: students 01 and 02 replace this comment with their own method.
+	
+	double square()
+	{
+		return a * a;
+	}
 
     // Pair B works below.
     // Keep both methods when merging.
@@ -46,6 +49,7 @@ public:
             a = a * -1;
         }
         return a;
+    }
     double negate() {
         if (a == 0) {
             return 0;
@@ -55,6 +59,18 @@ public:
 
     // Pair C works below.
     // Keep both methods when merging.
+    double minimum() const
+    {
+        if(a < b)
+        {
+            return a;
+        }
+        else
+        {
+            return b;
+        }
+    }
+
     double maximum(){
         return (a > b)? a : b;
     }
@@ -65,7 +81,43 @@ public:
     {
         return a * (b / 100);
     }
+    double sumOfSquares(){
+        return (a*a + b*b) ;
+}
+    double average()
+    {
+        return (a +b)/2;
+    }
+
+    double pow()
+    {
+        double result =1;
+        int x=b;
+        
+        if (b>0)
+        { while (x!=0)
+            {    
+                result = result *a;
+                x--
+            }
+
+        }
+        else if (b==0)
+        result=1;
+        else
+        {  
+            while (x!=0)
+            {    
+                result = result *a;
+                x++;
+            }
+            result = 1/result;
+        }
+        return result ;
+        
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
+	
 };
 
 #endif
