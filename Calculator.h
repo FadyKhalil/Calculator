@@ -76,6 +76,10 @@ public:
     {
         return a * (b / 100);
     }
+    double average()
+    {
+        return (a +b)/2;
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };
 
