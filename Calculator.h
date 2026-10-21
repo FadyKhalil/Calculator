@@ -67,6 +67,10 @@ public:
         }
     }
 
+    double maximum(){
+        return (a > b)? a : b;
+    }
+
     double percentage()
     {
         return a * (b / 100);
