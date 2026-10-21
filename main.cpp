@@ -53,14 +53,17 @@ int main() {
 
     // ROW_A: students 01 and 02 replace this comment with their own addRow call.
 
-    // Pair B works below.
+    // return absolute value.
     // Keep both rows when merging.
-    // ROW_B: students 03 and 04 replace this comment with their own addRow call.
+    addRow(page, "student03's line calls:Absolute",calculator.absolute());
+    addRow(page, "Negate", calculator.negate());
 
     // Pair C works below.
     // Keep both rows when merging.
     // ROW_C: students 05 and 06 replace this comment with their own addRow call.
     addRow(page,"HalfA", calculator.halfA());
+
+    addRow(page, "Percentage", calculator.percentage());
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
 
     page << "</table><p><small>Calculated in C++. To change the inputs, run the program again"
