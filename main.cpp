@@ -54,6 +54,8 @@ int main() {
     addRow(page, "Square", calculator.square());
 
     // return absolute value.
+    addRow(page, "Cubic", calculator.cube());
+    // Pair B works below.
     // Keep both rows when merging.
     addRow(page, "student03's line calls:Absolute",calculator.absolute());
     addRow(page, "Negate", calculator.negate());
