@@ -34,8 +34,11 @@ public:
     {
         return a / b;
     }
-
-    // PAIR_A: students 01 and 02 replace this comment with their own method.
+	
+	double square()
+	{
+		return a*a;
+	}
 
     // Pair B works below.
     // Keep both methods when merging.
@@ -64,6 +67,7 @@ public:
         return a * (b / 100);
     }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
+	
 };
 
 #endif

@@ -51,7 +51,7 @@ int main() {
         std::cout << "Division: cannot divide by zero\n";
     }
 
-    // ROW_A: students 01 and 02 replace this comment with their own addRow call.
+    addRow(page, "Square", calculator.square());
 
     // return absolute value.
     // Keep both rows when merging.
