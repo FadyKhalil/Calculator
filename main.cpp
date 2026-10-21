@@ -59,7 +59,7 @@ int main() {
 
     // Pair C works below.
     // Keep both rows when merging.
-    addRow(page,"maxmimum",calculator.maximum());
+    addRow(page,"maximum",calculator.maximum());
 
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
 
