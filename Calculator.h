@@ -46,6 +46,7 @@ public:
             a = a * -1;
         }
         return a;
+    }
     double negate() {
         if (a == 0) {
             return 0;
