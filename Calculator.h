@@ -1,45 +1,118 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-class Calculator {
+class Calculator
+{
 private:
     double a;
     double b;
 
 public:
-    Calculator(double first, double second) {
+    Calculator(double first, double second)
+    {
         a = first;
         b = second;
     }
 
-    double add() {
+    double add()
+    {
         return a + b;
     }
 
-    double subtract() {
+    double subtract()
+    {
         return a - b;
     }
 
-    double multiply() {
+    double multiply()
+    {
         return a * b;
     }
 
     // The provided main checks that B is not zero before calling this.
-    double divide() {
+    double divide()
+    {
         return a / b;
     }
-
-    // PAIR_A: students 01 and 02 replace this comment with their own method.
+	
+	double square()
+	{
+		return a * a;
+	}
 
     // Pair B works below.
     // Keep both methods when merging.
-    // PAIR_B: students 03 and 04 replace this comment with their own method.
+    double absolute()
+    {
+        if (a < 0)
+        {
+            a = a * -1;
+        }
+        return a;
+    }
+    double negate() {
+        if (a == 0) {
+            return 0;
+        }
+        return -a;
+    }
 
     // Pair C works below.
     // Keep both methods when merging.
-    // PAIR_C: students 05 and 06 replace this comment with their own method.
+    double minimum() const
+    {
+        if(a < b)
+        {
+            return a;
+        }
+        else
+        {
+            return b;
+        }
+    }
 
+    double maximum(){
+        return (a > b)? a : b;
+    }
+
+    double percentage()
+    {
+        return a * (b / 100);
+    }
+    double average()
+    {
+        return (a +b)/2;
+    }
+
+    double pow()
+    {
+        double result =1;
+        int x=b;
+        
+        if (b>0)
+        { while (x!=0)
+            {    
+                result = result *a;
+                x--
+            }
+
+        }
+        else if (b==0)
+        result=1;
+        else
+        {  
+            while (x!=0)
+            {    
+                result = result *a;
+                x++;
+            }
+            result = 1/result;
+        }
+        return result ;
+        
+    }
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
+	
 };
 
 #endif

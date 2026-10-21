@@ -51,15 +51,22 @@ int main() {
         std::cout << "Division: cannot divide by zero\n";
     }
 
+    addRow(page, "Square", calculator.square());
+
+    // return absolute value.
     addRow(page, "Cubic", calculator.cube());
     // Pair B works below.
     // Keep both rows when merging.
-    // ROW_B: students 03 and 04 replace this comment with their own addRow call.
+    addRow(page, "student03's line calls:Absolute",calculator.absolute());
+    addRow(page, "Negate", calculator.negate());
 
     // Pair C works below.
     // Keep both rows when merging.
-    // ROW_C: students 05 and 06 replace this comment with their own addRow call.
+    addRow(page, "Minimum", calculator.minimum());
+    addRow(page,"maximum",calculator.maximum());
 
+    addRow(page, "Percentage", calculator.percentage());
+    addRow(page, "Average", calculator.average());
     // OTHER_ROWS: students 07 through 13 add their rows above this line.
 
     page << "</table><p><small>Calculated in C++. To change the inputs, run the program again"
