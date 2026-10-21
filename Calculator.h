@@ -79,6 +79,9 @@ public:
     {
         return a * (b / 100);
     }
+    double sumOfSquares(){
+        return (a*a + b*b) ;
+}
     double average()
     {
         return (a +b)/2;
