@@ -37,7 +37,9 @@ public:
 
     // Pair C works below.
     // Keep both methods when merging.
-    // PAIR_C: students 05 and 06 replace this comment with their own method.
+    double maximum(){
+        return (a > b)? a : b;
+    }
 
     // OTHER_METHODS: students 07 through 13 add their methods above this line.
 };
